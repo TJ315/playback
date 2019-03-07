@@ -1,0 +1,119 @@
+邮箱 tangj@bokecc.com QInian1992
+wiki tangj	123456
+禅道 tangj 123456
+后台	https://admin.bokecc.com/index/user.bo 15110215580   c11111
+
+9001
+
+
+192.168.1.60
+
+
+http://127.0.0.1:9001/index/presenter/?roomid=83E22E4BD6FBDA149C33DC5901307461&userid=41E8063FC799ACE5
+http://127.0.0.1:9002/visit/?roomid=83E22E4BD6FBDA149C33DC5901307461&userid=41E8063FC799ACE5
+http://127.0.0.1:9001/index/presenter/?roomid=B2DA33F9C16D5E3F9C33DC5901307461&userid=83F203DAC2468694
+
+//$("#draw-box").mousemove(function(e){
+		
+//      varpositionX=e.pageX-$(this).offset().left; //获取当前鼠标相对img的X坐标
+//      varpositionY=e.pageY-$(this).offset().top; //获取当前鼠标相对img的Y坐标
+
+
+//		x = e.pageX - document.getElementById('draw-box').getBoundingClientRect().left;
+//		y = e.pageY - document.getElementById('draw-box').getBoundingClientRect().top;
+//      
+//      console.log($(this).offset().left,document.getElementById('draw-box').getBoundingClientRect().left,e.offsetX , e.clientX , e.pageX);
+//      
+//      $("#DOMfluorescence").css({
+//			"left": x,
+//			"top": y
+//		});
+//});
+
+
+
+
+\\192.168.1.141\CCLiveRelease\Atlas\0.0.1\     直播助手
+
+
+
+
+
+
+C:\Windows\System32\drivers\etc        host
+
+
+101.132.128.98 document.csslcloud.net
+101.132.128.98 class.csslcloud.net
+101.132.128.98 ccapi.csslcloud.net
+101.132.128.98 sio-1.csslcloud.net
+101.132.128.98 sio-2.csslcloud.net
+101.132.128.98 sio-3.csslcloud.net
+101.132.128.98 sio-4.csslcloud.net
+101.132.128.98
+120.78.92.64
+47.100.105.239
+118.25.194.104
+111.231.142.230
+122.152.198.120
+
+
+59.110.174.90 ccapi.csslcloud.net    预发布
+
+
+
+svn://192.168.1.248:3380/om-dev/live/newclass/class
+用户名：tangj
+密码：DK09Fa
+
+新旁听地址：
+web端：svn://192.168.1.248:3380/om-dev/live/viewer/webviewer
+
+回放地址：
+web端：svn://qianzn@192.168.1.248:3380/om-dev/live/playback/webplayback
+
+
+
+官网 svn://192.168.1.248:3380/om-dev/cm/website/
+
+
+
+    <script src="./static/js/woogeen/woogeen.sdk.js"></script>
+    <script src="./static/js/woogeen/woogeen.sdk.ui.js"></script>
+    <script src="./static/js/sdk/websdk_3.0.js"></script>
+    <script src="./static/js/woogeen/adapter.js"></script>
+    <script src="./static/js/woogeen/socket.io.js"></script>
+
+    <!-- 视频播放依赖 -->
+    <script src="//static.csslcloud.net/js/swfobject.js"></script>
+
+    <!--引用直播文档加载-->
+    <script src="//image.csslcloud.net/js/dpc.js"></script>
+
+    <!--引入画板sdk-->
+    <script src="./static/js/sdk/drawSdk_3.0.js"></script>
+
+    <!--文档相关操作-->
+    <script src="./static/js/sdk/doc.js"></script>
+
+    <!-- 聊天相关 -->
+    <script src="https://class.csslcloud.net/static/dist/js/classUpdateChat.js"></script>
+    
+    <script src="./static/js/index.js"></script>
+
+
+$.growl.notice	已成功
+$.growl.error	出错了
+$.growl.warning	警告
+$.growl.help	帮助提示
+$.growl 	消息标题
+
+旁听   https://class.csslcloud.net/viewer/index.html#/?roomid=B6E5FE0BC0FC5A079C33DC5901307461&userid=41E8063FC799ACE5  
+回放 https://class.csslcloud.net/playback/index.html#/?userid=83F203DAC2468694&roomid=67EF7DA44D3C1C739C33DC5901307461&liveid=CF25A15C43CF7E81&recordid=D5529CF16A1108C5
+svn://192.168.1.248:3380/om-dev/live/viewer/webviewer
+
+
+旁听 	https://class.csslcloud.net/viewer/index.html#/?roomid=B6E5FE0BC0FC5A079C33DC5901307461&userid=41E8063FC799ACE5	
+回放	https://class.csslcloud.net/viewer/index.html#/?userid=41E8063FC799ACE5&roomid=654EEE3470C7E4AD9C33DC5901307461&liveid=03BE19B0548DA691&recordid=73C66F65F17C93C6
+
+svn://192.168.1.248:3380/om-dev/live/viewer/webviewer
