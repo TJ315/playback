@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>分流回放</title>
+		<link rel="stylesheet" type="text/css" href="../js/Unpacked/video.css"/>
+		<link rel="stylesheet" href="../css/draw.css" />
+		<link rel="stylesheet" href="../css/index.css" />
+	</head>
+	<body>
+		
+		<div class="title">分流回放</div>
+		
+		<div class="tier">老师视频</div>
+		<div class="live">		
+			<div id="presenterVideo"></div>
+		</div>
+		
+		<div class="tier">学生视频</div>
+		<div class="student-live">			
+			<!--学生视频-->			
+			<ul id="studentVideo"></ul>
+		</div>
+		
+		<!--插播音视频-->	
+		<div class="tier">插播音视频</div>
+		<div id="insetMedia" class="inset-media"></div>
+		
+		<div class="video-middle l-m-b">
+	        <div class="progress-box" id="progress-box">
+	            <div class="background" id="background"></div>
+	            <div class="progress" id="progress"></div>
+	            <span class="dot" id="dot"></span>
+	        </div>
+	        <div class="controls">
+	            <div class="left">
+	                <div class="play">
+	                    <a href="javascript:void(0);" class="btn-play btn-pause" title="播放" id="btn-play"></a>
+	                </div>
+	                <div class="time">
+	                    <span id="PlayerTime">00:00</span>/<span id="DurationTime">00:00</span>
+	                </div>	                
+	            </div>	            
+	        </div>
+	
+	    </div>
+		
+		<div class="box">
+			<div class="tier"><p>画板</p><p>聊天</p></div>
+			<!--画板-->
+			<div class="can">					
+				<div class="can-canvas">
+					<!--画板显示区域，可自定义id，样式，宽高需自适应，画板初始化时需传入id-->
+					<div id="draw-parent"></div>
+				</div>
+			</div>
+			
+			<!--聊天-->
+			<div class="chat">						
+				<div class="chat-t">
+					
+				</div>
+			</div>						
+		</div>
+		
+		
+	</body>
+</html>
+
+
+
+
+<!--非必须必须引用文件-->
+<script src="https://class.csslcloud.net/static/js/jquery/jquery.min.js"></script>
+
+<!--必须引用文件-->
+<!--视频播放器相关-->
+<script src="../js/Unpacked/video.js"></script>
+<!--引用直播文档加载-->
+<script src="//image.csslcloud.net/js/dpc.js"></script>
+<!--回放sdk-->
+<script src="../js/webplayback/playback_sdk.js"></script>
+
+
+<script src="../js/webplayback.js"></script>
